@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="plex1" Database="./plex1.tags">
+  <Project Name="plex1" Path="plex1.project" Active="Yes"/>
+  <Project Name="openV" Path="openV/openV.project" Active="No"/>
+  <Project Name="qtest" Path="qtest/qtest.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="plex1" ConfigName="Debug"/>
+      <Project Name="openV" ConfigName="Debug"/>
+      <Project Name="qtest" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="plex1" ConfigName="Release"/>
+      <Project Name="openV" ConfigName="Release"/>
+      <Project Name="qtest" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
